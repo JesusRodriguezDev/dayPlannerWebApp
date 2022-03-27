@@ -4,9 +4,94 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="./assets/CSS/style.css">
     <title>Day Planner</title>
 </head>
-<body>
-    
+<body> </body> <!-- onload="realtimeClock()"> -->
+    <header class="hero">
+    <h1>Day Planner</h1>
+    <h2><br /> <span id="time-display">00:00:00</span></h2>
+    <p id="currentDay" class="lead"></p>
+    <p id="clock" class="lead"></p>
+    </header>
+    <main class="container">
+    <!-- Time slots section-->
+        <div id="hr8-am" class="row hourBlock" data-hour = "08" data-ampm = "am"> 
+            <div class="col-md-1 hour">
+                08:00
+            </div>
+            <textarea class="col-md-10 task-text"></textarea>
+            <button class="btn save-btn col-md-1"><i class="hourInput far fa-save"></i></button>
+        </div>
+        <div id="hr9-9am" class="row hourBlock" data-hour = "09" data-ampm = "am">
+            <div class="col-md-1 hour">
+                09:00
+            </div>
+            <textarea class="col-md-10 task-text"></textarea>
+            <button class="btn save-btn col-md-1"><i class="hourInput far fa-save"></i></button>
+        </div>
+        <div id="hr10-10am" class="row hourBlock" data-hour = "10" data-ampm = "am">
+            <div class="col-md-1 hour">
+                10:00
+            </div>
+            <textarea class="col-md-10 task-text"></textarea>
+            <button class="btn save-btn col-md-1"><i class="hourInput far fa-save"></i></button>
+        </div>
+        <div id="hr11-am" class="row hourBlock" data-hour = "11" data-ampm = "am">
+            <div class="col-md-1 hour">
+                11:00
+            </div>
+            <textarea class="col-md-10 task-text"></textarea>
+            <button class="btn save-btn col-md-1"><i class="hourInput far fa-save"></i></button>
+        </div>
+        <div id="hr12-am" class="row hourBlock" data-hour = "12" data-ampm = "pm">
+            <div class="col-md-1 hour">
+                12:00
+            </div>
+            <textarea class="col-md-10 task-text"></textarea>
+            <button class="btn save-btn col-md-1"><i class="hourInput far fa-save"></i></button>
+        </div>
+        <div id="hr1-pm" class="row hourBlock" data-hour = "13" data-ampm = "pm">
+            <div class="col-md-1 hour">
+                01:00
+            </div>
+            <textarea class="col-md-10 task-text"></textarea>
+            <button class="btn save-btn col-md-1"><i class="hourInput far fa-save"></i></button>
+        </div>
+        <div id="hr2-pm" class="row hourBlock" data-hour = "14" data-ampm = "pm">
+            <div class="col-md-1 hour">
+                02:00
+            </div>
+            <textarea class="col-md-10 task-text"></textarea>
+            <button class="btn save-btn col-md-1"><i class="hourInput far fa-save"></i></button>
+        </div>
+        <div id="hr3-pm" class="row hourBlock" data-hour = "15" data-ampm = "pm">
+            <div class="col-md-1 hour">
+                03:00
+            </div>
+            <textarea class="col-md-10 task-text"></textarea>
+            <button class="btn save-btn col-md-1"><i class="hourInput far fa-save"></i></button>
+        </div>
+        <div id="hr4-pm" class="row hourBlock" data-hour = "16" data-ampm = "pm">
+            <div class="col-md-1 hour">
+                04:00
+            </div>
+            <textarea class="col-md-10 task-text"></textarea>
+            <button class="btn save-btn col-md-1"><i class="hourInput far fa-save"></i></button>
+        </div>
+        <div id="hr5-pm" class="row hourBlock" data-hour = "08" data-ampm = "am">
+            <div class="col-md-1 hour">
+                05:00
+            </div>
+            <textarea class="col-md-10 task-text"></textarea>
+            <button class="btn save-btn col-md-1"><i class="hourInput far fa-save"></i></button>
+        </div>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./assets/JS/script.js"></script>
 </body>
 </html>
