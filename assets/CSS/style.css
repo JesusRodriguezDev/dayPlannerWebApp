@@ -1,0 +1,47 @@
+body {
+background-color: rgb(42, 87, 87);
+}
+
+header{
+        text-align: center;
+        background-color: transparent;
+        color: black;
+        border-radius: 0;
+        border-bottom: 10px solid black;
+        max-width: 600px;
+        text-align: center;
+}
+
+ .hero {
+    background-color: aqua;
+    border-radius: 15px 50px;
+    border: solid royalblue;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  } 
+
+  .save-btn {
+    border-left: 1px solid black;
+    border-radius: 0px 45px 11px 0px;
+    background-color: #06aed5;
+    color: white;
+}
+
+.row {
+    border-radius: 15px 50px;
+    border: solid royalblue;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+    background-color: aquamarine;
+}
+
+main{
+    background-color: aqua;
+    border-radius: 15px 50px;
+    border: solid royalblue;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+}
