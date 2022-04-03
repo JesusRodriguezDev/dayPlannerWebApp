@@ -10,82 +10,62 @@
     <link rel="stylesheet" href="./assets/CSS/style.css">
     <title>Day Planner</title>
 </head>
-<body>
+<body onload ="displayTime()">
     <header class="hero">
         <h1>Day Planner</h1>
         <h2><br /> <span id="time-display">00:00:00</span></h2>
     </header>
     <main class="container">
     <!-- Time slots section-->
-        <div id="hr8-am" class="row hourBlock" data-hour = 08 data-ampm = "am"> 
-            <div class="col-md-1 hour">
-                08:00
-            </div>
+        <div id="hr8-am" class="row hourBlock" data-hour = 08> 
+            <div class="col-md-1 hour">08:00</div>
             <textarea class="col-md-10 task-text"></textarea>
-            <button class="btn save-btn col-md-1">Save<i class="hourInput far fa-save"></i></button>
+            <button id="button8" class="btn save-btn col-md-1">Save<i class="hourInput far fa-save"></i></button>
         </div>
-        <div id="hr9-9am" class="row hourBlock" data-hour = 09 data-ampm = "am">
-            <div class="col-md-1 hour">
-                09:00
-            </div>
+        <div id="hr9-am" class="row hourBlock" data-hour = 09>
+            <div class="col-md-1 hour">09:00</div>
             <textarea class="col-md-10 task-text"></textarea>
-            <button class="btn save-btn col-md-1">Save<i class="hourInput far fa-save"></i></button>
+            <button id="button9" class="btn save-btn col-md-1">Save<i class="hourInput far fa-save"></i></button>
         </div>
-        <div id="hr10-10am" class="row hourBlock" data-hour = 10 data-ampm = "am">
-            <div class="col-md-1 hour">
-                10:00
-            </div>
+        <div id="hr10-am" class="row hourBlock" data-hour = 10>
+            <div class="col-md-1 hour">10:00</div>
             <textarea class="col-md-10 task-text"></textarea>
-            <button class="btn save-btn col-md-1">Save<i class="hourInput far fa-save"></i></button>
+            <button id="button10" class="btn save-btn col-md-1">Save<i class="hourInput far fa-save"></i></button>
         </div>
-        <div id="hr11-am" class="row hourBlock" data-hour = 11 data-ampm = "am">
-            <div class="col-md-1 hour">
-                11:00
-            </div>
+        <div id="hr11-am" class="row hourBlock" data-hour = 11>
+            <div class="col-md-1 hour">11:00</div>
             <textarea class="col-md-10 task-text"></textarea>
-            <button class="btn save-btn col-md-1">Save<i class="hourInput far fa-save"></i></button>
+            <button id="button11" class="btn save-btn col-md-1">Save<i class="hourInput far fa-save"></i></button>
         </div>
-        <div id="hr12-am" class="row hourBlock" data-hour = 12 data-ampm = "pm">
-            <div class="col-md-1 hour">
-                12:00
-            </div>
+        <div id="hr12-pm" class="row hourBlock" data-hour = 12>
+            <div class="col-md-1 hour">12:00</div>
             <textarea class="col-md-10 task-text"></textarea>
-            <button class="btn save-btn col-md-1">Save<i class="hourInput far fa-save"></i></button>
+            <button id="button12" class="btn save-btn col-md-1">Save<i class="hourInput far fa-save"></i></button>
         </div>
-        <div id="hr1-pm" class="row hourBlock" data-hour = 13 data-ampm = "pm">
-            <div class="col-md-1 hour">
-                01:00
-            </div>
+        <div id="hr1-pm" class="row hourBlock" data-hour = 13">
+            <div class="col-md-1 hour">01:00</div>
             <textarea class="col-md-10 task-text"></textarea>
-            <button class="btn save-btn col-md-1">Save<i class="hourInput far fa-save"></i></button>
+            <button id="button1" class="btn save-btn col-md-1">Save<i class="hourInput far fa-save"></i></button>
         </div>
-        <div id="hr2-pm" class="row hourBlock" data-hour = 14 data-ampm = "pm">
-            <div class="col-md-1 hour">
-                02:00
-            </div>
+        <div id="hr2-pm" class="row hourBlock" data-hour = 14>
+            <div class="col-md-1 hour">02:00</div>
             <textarea class="col-md-10 task-text"></textarea>
-            <button class="btn save-btn col-md-1">Save<i class="hourInput far fa-save"></i></button>
+            <button id="button2" class="btn save-btn col-md-1">Save<i class="hourInput far fa-save"></i></button>
         </div>
-        <div id="hr3-pm" class="row hourBlock" data-hour = 15 data-ampm = "pm">
-            <div class="col-md-1 hour">
-                03:00
-            </div>
+        <div id="hr3-pm" class="row hourBlock" data-hour = 15>
+            <div class="col-md-1 hour">03:00</div>
             <textarea class="col-md-10 task-text"></textarea>
-            <button class="btn save-btn col-md-1">Save<i class="hourInput far fa-save"></i></button>
+            <button id="button3" class="btn save-btn col-md-1">Save<i class="hourInput far fa-save"></i></button>
         </div>
-        <div id="hr4-pm" class="row hourBlock" data-hour = 16 data-ampm = "pm">
-            <div class="col-md-1 hour">
-                04:00
-            </div>
+        <div id="hr4-pm" class="row hourBlock" data-hour = 16>
+            <div class="col-md-1 hour">04:00</div>
             <textarea class="col-md-10 task-text"></textarea>
-            <button class="btn save-btn col-md-1">Save<i class="hourInput far fa-save"></i></button>
+            <button id="button4" class="btn save-btn col-md-1">Save<i class="hourInput far fa-save"></i></button>
         </div>
-        <div id="hr5-pm" class="row hourBlock" data-hour = 17 data-ampm = "am">
-            <div class="col-md-1 hour">
-                05:00
-            </div>
+        <div id="hr5-pm" class="row hourBlock" data-hour = 17>
+            <div class="col-md-1 hour">05:00</div>
             <textarea class="col-md-10 task-text"></textarea>
-            <button class="btn save-btn col-md-1">Save<i class="hourInput far fa-save"></i></button>
+            <button id="button5" class="btn save-btn col-md-1">Save<i class="hourInput far fa-save"></i></button>
         </div>
     </main>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

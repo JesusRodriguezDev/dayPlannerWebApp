@@ -57,17 +57,17 @@ main{
 
 .past {
     background-color: #ff892f;
-    color: white;
+    color: black;
 }
 
 .present {
     background-color:  #00FFDD;
-    color: white;
+    color: black;
 }
 
 .future {
     background-color:#E8FFC2;
-    color: white;
+    color: black;
 }
 
 .hour{
