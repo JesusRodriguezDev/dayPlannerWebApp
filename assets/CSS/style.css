@@ -23,27 +23,30 @@ header{
 
   .save-btn {
     border-left: 1px solid black;
-    border-radius: 0px 43px 9px 0px;
+    border-radius: 10px 43px;
     background-color: #06aed5;
     color: white;
     border: solid royalblue;
-    
+    margin-bottom: 2px;
+    margin-top: 2px;
 }
 
 .row {
     border-radius: 15px 50px;
     border: solid royalblue;
     margin: auto;
+    margin-right: 2px;
+    margin-left: 2px;
     margin-top: 10px;
     margin-bottom: 10px; 
     background-color: aquamarine;
 }
 
 .task-text{
-    border-radius: 15px 0px 0px 50px;
+    border-radius: 15px 50px 15px 50px;
     border: solid royalblue;
-    margin-top: 2px ;
-    margin-bottom: 2px;
+    margin-top: 8px ;
+    margin-bottom: 8px;
 }
 
 main{
